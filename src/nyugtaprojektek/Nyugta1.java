@@ -3,32 +3,33 @@ package nyugtaprojektek;
 public class Nyugta1 {
 
     public static void main(String[] args) {
+        
         String csillagok = "******************";
-        String vonalak = "==================";
+        String duplaVonalak = "==================";
+        String egyesVonal = "------------------";
+        String alsoVonal = "_______";
+
         System.out.println(csillagok);
         System.out.println("     Nyugta 1");
         System.out.println(csillagok);
         System.out.println("Tétel 1:    350 Ft");
         System.out.println("Tétel 2:     90 Ft");
         System.out.println("Tétel 3:    650 Ft");
-        System.out.println(vonalak);
+        System.out.println(duplaVonalak);
         System.out.println("Összesen:  1090 Ft");
-        System.out.println("------------------");
+        System.out.println(egyesVonal);
         System.out.println("Kedvezmény: 109 Ft");
         System.out.println("(10%)");
-        System.out.println("==================");
+        System.out.println(duplaVonalak);
         System.out.println("Fizetendő:  981 Ft");
-        System.out.println("------------------");
-        System.out.println("");
-        System.out.print("_______");
-        System.out.print("   ");
-        System.out.println("_______");
-        System.out.print(" Dátum");
-        System.out.print("   ");
+        System.out.printf(egyesVonal,"\n");
+        System.out.printf(alsoVonal,"\n");
+        System.out.println(alsoVonal);
+        System.out.printf(" Dátum","\n");
         System.out.println("   Név");
-        System.out.println("******************");
+        System.out.println(csillagok);
         System.out.println("        CÉG");
-        System.out.println("******************");
+        System.out.println(csillagok);
     }
     
 }

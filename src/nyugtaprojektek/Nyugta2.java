@@ -30,8 +30,6 @@ public class Nyugta2 {
 
         double euro = fizetendo / 350.0;
         
-        
-        
         System.out.println(csillagok);
         System.out.println("     Nyugta 2");
         System.out.println(csillagok);

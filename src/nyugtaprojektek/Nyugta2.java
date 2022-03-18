@@ -10,10 +10,7 @@ public class Nyugta2 {
 
     public static void main(String[] args) {
         //változók kiszervezése
-        //int tetel1 = 350;
-        //int tetel2 = 90;
-        //int tetel3 = 1320;
-        int tetelek[] = new int[3];
+        int[] tetelek = new int[3];
         tetelek[0] = 350; 
         tetelek[1] = 90; 
         tetelek[2] = 1320;
@@ -38,18 +35,12 @@ public class Nyugta2 {
         System.out.println(csillagok);
         System.out.println("     Nyugta 2");
         System.out.println(csillagok);
-
-        //System.out.println("Tétel 1:     350 Ft");
-
-        System.out.printf("Tétel 1:     %d %s\n", tetel1, huf);
-
-        //System.out.println("Tétel 2:      90 Ft");
-
-        System.out.printf("Tétel 2:      %d %s\n", tetel2, huf);
-
-        //System.out.println("Tétel 3:    1320 Ft");
-
-        System.out.printf("Tétel 3:    %d %s\n", tetel3, huf);
+        
+        int darabszam = 0;
+        for (int i = 0; i < tetelek.length; i++) {
+            darabszam++;
+            System.out.printf("Tétel "+darabszam+":     %d %s\n", tetelek[i], huf);
+        }
 
         System.out.println(duplaVonal);
         
